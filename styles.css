@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0e0e0; /* Light gray background */
+    color: #333;
+}
+
+header {
+    background: url('header-background.jpg') no-repeat center center/cover; /* Add your background image */
+    color: #fff;
+    padding: 40px 0; /* Increased padding for better visibility */
+    text-align: center;
+    background-color: #001f3f; /* Navy blue fallback */
+}
+
+nav {
+    background: #001f3f; /* Navy blue */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #7FDBFF; /* Light blue hover */
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    color: #001f3f; /* Navy blue text */
+}
+
+h2 {
+    color: #001f3f; /* Navy blue */
+    border-bottom: 2px solid #001f3f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #001f3f; /* Navy blue */
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #001f3f; /* Navy blue */
+    color: #fff;
+}
+
+.image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px; /* Space between images */
+            padding: 30px;
+}
+
+.image-container img {
+            width: 150px; /* Set the width of the images */
+            height: auto; /* Maintain the aspect ratio */
+            border-radius: 8px; /* Optional: add rounded corners */
+}
+.organizers-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.organizer {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.organizer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.organizer .bio h3 {
+    color: #001f3f; /* Navy blue */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.organizer .bio p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Set this to 'separate' to enable border-spacing */
+    border-spacing: 15px; /* Adjust the space between columns and rows */
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #001f3f; /* Navy blue borders */
+    padding: 10px; /* Padding inside the cells */
+    text-align: left;
+}
